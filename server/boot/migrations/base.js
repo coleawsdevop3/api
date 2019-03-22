@@ -6,7 +6,7 @@ const path = require('path')
 const server = require(path.resolve(__dirname, '../../server.js'))
 const { mysqlDb } = server.dataSources
 
-const models = ['User', 'AccessToken', 'ACL', 'RoleMapping', 'Role', 'Client']
+const models = ['User', 'AccessToken', 'ACL', 'RoleMapping', 'Role', 'Client', 'Widget']
 
 module.exports = function migrateBaseModels (app, next) {
   console.log('\n---\nBeginning Migrations...')
