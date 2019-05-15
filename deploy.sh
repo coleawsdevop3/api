@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
 
-# Change these to match the names you're using
-TASK_DEFINITION="awsdevops-api"
-SERVICE="api-service"
-CLUSTER="awsdevops-cluster"
-
 # exit if the script fails
 set -e
 

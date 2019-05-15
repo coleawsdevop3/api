@@ -3,7 +3,7 @@
     "mountPath": "/explorer",
     "generateOperationScopedModels": true,
     "apiInfo": {
-      "title": "The Updated Loopback API",
+      "title": "The API CI/CD for Staging AND Production",
       "description": "the api is updated"
     }
   }
